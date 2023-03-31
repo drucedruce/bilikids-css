@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Tovari-Sans;
+  src: url(../fonts/tovari-sans.otf);
+}
+
+@import "scss-components/variables.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Tovari-Sans;
+  color: $main-text-color;
+}
+
+body {
+  background-color: $bg-color-white;
+  background-image: url(/images/Group\ 115.png);
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@import "scss-components/header.scss";
